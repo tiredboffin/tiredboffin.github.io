@@ -14,7 +14,7 @@ There’s no clear evidence about what kind of CPU architecture these early mode
 
 The oldest Fujifilm firmware available for analysis comes from the FinePix S7000, released in July 2003. Early examination suggests that the camera ran on a MIPS-based Toshiba TX4927 processor paired with the VxWorks real-time operating system from Wind River Systems. Several successors -- including the FinePix S3 Pro and S5100 -- have followed the same design path, relying on the Toshiba TX49 CPU family and the same VxWorks RTOS. To date, I believe this remains the earliest verifiable evidence of the CPU architecture used inside Fujifilm’s digital cameras.
 
-Fujifilm began using ARM processors starting with F10 relased in August 2005. These models ran on a single-core [ARM 1136F-S CPU](https://en.wikipedia.org/wiki/ARM11) with the [Norti MiSPO RTOS](http://www.mispo.co.jp/document/no4guide.pdf).
+Fujifilm began using ARM processors starting with Finepix F10 relased in August 2005. These models ran on a single-core [ARM 1136F-S CPU](https://en.wikipedia.org/wiki/ARM11) with the [Norti MiSPO RTOS](http://www.mispo.co.jp/document/no4guide.pdf).
 
 From a reverse-engineering perspective, the Norti MiSPO RTOS based cameras appear to share far more common code with later Fujifilm models than the earlier VxWorks RTOS-based generation.
 
