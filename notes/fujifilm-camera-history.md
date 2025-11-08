@@ -56,7 +56,7 @@ These same ODMs supplied designs for other manufacturers too --  Nikon, Kodak, O
 
 The most interesting and recent "non-Fujifilm" Fujifilm-branded interchangeable-lens models seem to be the X-A3+, XA10+, XF10 and X-T100+ (released in 2016–2020), all continuing to use the Xacti (now Xacti Corporation, not Sanyo DI Solutions) design. To my knowledge, these cameras have not yet been thoroughly analyzed, and it remains unclear how much -- if anything -- they share with Fujifilm's true in-house camera designs.
 
-## Modern History (2022-)
+## Modern History (2022-2025)
 
 The new "X Processor 5" SoC was first introduced in the X-T5 camera. This SoC is based on a quad-core ARM Cortex-A53 and runs the ThreadX SMP ARM64 RTOS, with Linux handling network stack and also some network-related tasks (for example,  frameio, ftp transfers etc).
 
