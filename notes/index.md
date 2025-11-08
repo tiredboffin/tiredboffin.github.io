@@ -1,5 +1,3 @@
-Recent notes.
-
 - [Fujifilm Camera History](fujifilm-camera-history.md)
 
     If you're thinking about diving into Fujifilm firmware reversing, the first question to ask is simple: **is it worth the trouble?**
