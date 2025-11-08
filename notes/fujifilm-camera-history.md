@@ -1,6 +1,4 @@
-Based on [CPU-and-OS-History-Table](https://github.com/tiredboffin/fffw/wiki/CPU-and-OS-History-Table)
-
-#Fujifilm Camera CPU and OS History -- RE Perspective.
+# Fujifilm Camera CPU and OS History -- RE Perspective.
 
 ## Prehistory
 
@@ -22,7 +20,7 @@ From a reverse-engineering perspective, the Norti MiSPO RTOS based cameras appea
 
 ##  Classical Antiquity (2010-2016)
 
-With the launch of the X100 in September 2010, Fujifilm transitioned to a new, more capable “EXR Processor” SoC built around a dual-core ARM Cortex-R4F CPU running an unidentified dual-kernel µITRON real-time operating system. 
+With the launch of the X100 in September 2010, Fujifilm transitioned to a new, more capable “EXR Processor” SoC built around a dual-core ARM Cortex-R4F CPU running an unidentified dual-kernel µITRON real-time operating system.
 
 The camera’s system software abstracts the underlying RTOS through a higher-level “FF RTOS” API that sits above the µITRON layer. This FF RTOS API presents a unified system interface and effectively serves as the camera’s kernel-level API.
 
@@ -30,7 +28,7 @@ _Note_: Dual-processor Cortex-R4 systems are not standard, and the SoC has other
 
 The ARMv7-R-based CPU lacks an MMU, instead implementing the simpler, potentially faster [ARM Protected Memory System Architecture](https://developer.arm.com/documentation/den0042/a/The-Memory-Protection-Unit). This architecture makes "EXR Processor" cameras somewhat more accessible for reverse engineering due to the absence of address translation, also making them easier to exploit.
 
-In 2012, the original "EXR Processor" SoC was upgraded to the "EXR Pro Processor" design, first seen in the X-E1 and X-Pro1 models. This update added an image processing co-processor as a standalone module while retaining the original "EXR Processor" as the primary SoC. 
+In 2012, the original "EXR Processor" SoC was upgraded to the "EXR Pro Processor" design, first seen in the X-E1 and X-Pro1 models. This update added an image processing co-processor as a standalone module while retaining the original "EXR Processor" as the primary SoC.
 
 A new "EXR II Processor" SoC was introduced in 2013, integrating the image co-processor and EXR Processor into a single module. The X100S was the first X-series camera based on this new SoC. Fujifilm continued using the "EXR II" SoC until 2016 X-E2s.
 
@@ -48,7 +46,7 @@ Cameras equipped with IBIS (X-H1, X-T4, X-S10, GFX100, etc.) use a dedicated Thu
 
 Starting with the X-H1, X-E3 cameras also include a Renesas RL78 (for e.g. R5F10x) chip that is used to control USB charging.
 
-The GFX100 (September, 2018) introduced a new Linux subsystem for its networking stack (and to support 5 GHz Wi-Fi), and this setup became standard in later X-Processor 5 systems.  
+The GFX100 (September, 2018) introduced a new Linux subsystem for its networking stack (and to support 5 GHz Wi-Fi), and this setup became standard in later X-Processor 5 systems.
 
 ## Parallel History
 
@@ -67,11 +65,3 @@ The firmware includes references to the [CEVA XM6 IP](https://www.ceva-ip.com/pr
 Reverse engineering the "X Processor 5" is quite similar to working with the "X Processor 4" though it requires adjustments for 64-bit addressing and RAM mapping of all devices is different.
 
 With recent updates, Fujifilm began signing firmware images with ECDSA -- likely to comply with the EU RED requirements (see [EU Cyber Standard ETSI EN 303 645 v3.1.3](https://www.etsi.org/deliver/etsi_en/303600_303699/303645/03.01.03_60/en_303645v030103p.pdf)), which took effect in 2025 and mandate protection against unauthorized or malicious firmware modifications. As a side effect, this also blocks the only known method of firmware downgrading -- based on header modification -- since the firmware header is now included in the signed data.
-
-
-
-
-
-
-
-
