@@ -1,4 +1,4 @@
-Based on [CPU-and-OS-History-Table](https://github.com/tiredboffin/fffw.wiki/CPU-and-OS-History-Table.md)
+Based on [CPU-and-OS-History-Table](https://github.com/tiredboffin/fffw/wiki/CPU-and-OS-History-Table.md)
 
 ## Prehistory
 
