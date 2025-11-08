@@ -14,4 +14,4 @@ Recent notes.
 
     Still, with Fujifilm's wide range of models, not all cameras are equally approachable. To make reverse-engineering efforts more effective -- and to better coordinate with other curious researchers -- it's essential to identify which family your camera belongs to.
 
-    This article, together with the [CPU-and-OS History Table](https://github.com/tiredboffin/fffw/wiki/CPU-and-OS-History-Table), is meant to help you determine which models are related or even nearly identical from a reverse-engineering perspective.
+    [This article](fujifilm-camera-history.md), together with the [CPU-and-OS History Table](https://github.com/tiredboffin/fffw/wiki/CPU-and-OS-History-Table), is meant to help you determine which models are related or even nearly identical from a reverse-engineering perspective.
