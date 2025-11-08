@@ -1,5 +1,7 @@
 Based on [CPU-and-OS-History-Table](https://github.com/tiredboffin/fffw/wiki/CPU-and-OS-History-Table)
 
+#Fujifilm Camera CPU and OS History -- RE Perspective.
+
 ## Prehistory
 
 The Fujifilm Fujix DS-1P camera, released in 1988, is considered the first "truly digital" camera. However, it is likely not very feasible to reverse-engineer today, as finding both the necessary software and compatible hardware is extremely difficult, if not impossible.
