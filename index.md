@@ -1,10 +1,10 @@
 ---
-title: Fujifilm firmware reverse engineering notes
-description: Notes and research about Fujifilm X-series camera firmware.
-tags: [fujifilm, firmware, reverse engineering, fujikaidoku]
+title: Fujifilm firmware reverse engineering
+description: Instructions, notes, and thoughts on Fujifilm camera firmware reverse engineering by curiously bored @tiredboffin.
+tags: [fujifilm, firmware, reverse engineering, fujikaidoku, 0xff80, fujihack, nikon-firmware-tools, chdk]
 ---
 
-# Notes on Fujifilm Firmware Reversings
+# Where to start?
 
 If you're thinking about diving into Fujifilm firmware reversing, the first question to ask is simple: **is it worth the trouble?**
 
