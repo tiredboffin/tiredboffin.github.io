@@ -52,7 +52,7 @@ The GFX100 (September, 2018) introduced a new Linux subsystem for its networking
 
 Fujifilm has worked with several different ODM vendors over the years, creating a remarkable zoo of camera designs from a reverse-engineering perspective. Many models appear to have been developed -- and likely manufactured -- by Sanyo's Xacti division, as they use Sanyo's EV1 and EV2 main SoCs. These models are ARM-based; however, there are also Fujifilm-branded cameras built on Altek and Zoran platforms that feature more exotic CPU architectures.
 
-These same ODMs supplied designs for other manufacturers too --  Nikon, Kodak, Olympus etc -- particularly for their lower-end compact lines. From a reversing perspective, it these cameras are of any interest, it might make more sense to group reversing efforts by ODM vendor rather than by brand.
+These same ODMs supplied designs for other manufacturers too --  Nikon, Kodak, Olympus etc -- particularly for their lower-end compact lines. From a reversing perspective, if these cameras are of any interest, it might make more sense to group reversing efforts by ODM vendor rather than by brand.
 
 The most interesting and recent "non-Fujifilm" Fujifilm-branded interchangeable-lens models seem to be the X-A3+, XA10+, XF10 and X-T100+ (released in 2016–2020), all continuing to use the Xacti (now Xacti Corporation, not Sanyo DI Solutions) design. To my knowledge, these cameras have not yet been thoroughly analyzed, and it remains unclear how much -- if anything -- they share with Fujifilm's true in-house camera designs.
 
