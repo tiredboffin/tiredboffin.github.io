@@ -1,6 +1,4 @@
 ---
-title: Fujifilm firmware reverse engineering
-description: Instructions, notes, and thoughts on Fujifilm camera firmware reverse engineering by curiously bored @tiredboffin.
 tags: [fujifilm, firmware, reverse engineering, fujikaidoku, 0xff80, fujihack, nikon-firmware-tools, chdk]
 ---
 
