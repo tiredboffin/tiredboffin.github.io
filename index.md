@@ -1,3 +1,7 @@
+title: Fujifilm firmware reverse engineering notes
+description: Notes and research about Fujifilm X-series camera firmware.
+tags: [fujifilm, firmware, reverse engineering, fujikaidoku]
+
 # Notes on Fujifilm Firmware Reversings
 
 If you're thinking about diving into Fujifilm firmware reversing, the first question to ask is simple: **is it worth the trouble?**
