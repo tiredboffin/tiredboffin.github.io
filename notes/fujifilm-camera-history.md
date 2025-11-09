@@ -4,7 +4,7 @@
 
 The Fujifilm Fujix DS-1P camera, released in 1988, is considered the first "truly digital" camera. However, it is likely not very feasible to reverse-engineer today, as finding both the necessary software and compatible hardware is extremely difficult, if not impossible.
 
-In January 2001, Fujifilm introduced the FinePix 4700 and the FinePix S1 Pro (Nikon F-mount with an APS-C sensor!). Both cameras used Fujifilm's innovative first generation of SuperCCD sensor design.
+In January 2001, Fujifilm introduced the FinePix 4700 and the FinePix S1 Pro in Nikon body with an APS-C(!) sensor. Both cameras used Fujifilm's innovative first generation of SuperCCD sensor design.
 
 There's no clear evidence about what kind of CPU architecture these early models used, as firmware updates were handled mainly through Fujifilm's service centers rather than released publicly.
 
