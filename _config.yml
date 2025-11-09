@@ -1,3 +1,4 @@
-title: Fujifilm firmware reverse engineering
-description: Notes on Fujifilm camera firmware reverse engineering by @tiredboffin.
+title: Fujifilm Guts by @tiredboffin
+description: Notes and experiments on Fujifilm camera firmware internals.
+author: tiredboffin
 theme: jekyll-theme-slate
