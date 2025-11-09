@@ -1,6 +1,8 @@
+---
 title: Fujifilm firmware reverse engineering notes
 description: Notes and research about Fujifilm X-series camera firmware.
 tags: [fujifilm, firmware, reverse engineering, fujikaidoku]
+---
 
 # Notes on Fujifilm Firmware Reversings
 
