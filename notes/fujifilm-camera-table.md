@@ -1,7 +1,3 @@
----
-enable_datatable: true
----
-
 | **Name**    | **Date**| **Processor** | **Ker	nel** | **SoC id** | **Image sensor** | **Format** | **Comment**|
 | ----------- | --------| ------------- |----------- | ------ | ---------------- | ------ | ---------- |
 |Finepix 4700 |01/31/01|||FF4125|SuperCCD I 1/1.7" 2.4M/4M|NA||
@@ -116,5 +112,3 @@ enable_datatable: true
 |XE5|06/12/25|X Processor 5 Cortex-A53|ThreadX SMP 64||X-Trans CMOS 5|X8|pid:LX25|
 |XHALF|07/14/25|Cortex-A7|ThreadX|||SUNP||
 |XT30III|10/23/25|X Processor 5 Cortex-A53|ThreadX SMP 64||X-Trans CMOS 4||pid:?|
-
-{: .datatable}
