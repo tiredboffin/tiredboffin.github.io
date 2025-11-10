@@ -36,7 +36,7 @@ In total, there are over 20 cameras based on the "EXR", "EXR Pro" and "EXR II" p
 
 ## Middle ages (2016-2021)
 
-With the X100F, Fujifilm introduced the "X Processor Pro" SoC, based on a dual-core ARM Cortex-A7 architecture running the ThreadX SMP RTOS. The kernel also implements  µITRON as a layer on top of ThreadX API.
+With the X100F, Fujifilm introduced the "X Processor Pro" SoC, based on a dual-core ARM Cortex-A7 architecture running the ThreadX SMP RTOS. The kernel also implements µITRON as a layer on top of ThreadX API.
 
 From a reverse-engineering standpoint, the use of a standard GIC interrupt controller, a conventional SMP design, and the public availability of ThreadX source code make it significantly easier to follow the structure and logic of Fujifilm's low-level subsystems. Fujifilm maintained the same abstraction layer  -- the FF RTOS API  -- between the RTOS and the application layer, allowing insights from "X-Processor Pro" cameras to be applied to  analysis of earlier "EXR" models. Studying newer cameras can reveal details about older ones -- and vice versa.
 
@@ -64,4 +64,4 @@ The firmware includes references to the [CEVA XM6 IP](https://www.ceva-ip.com/pr
 
 Reverse engineering the "X Processor 5" is quite similar to working with the "X Processor 4" though it requires adjustments for 64-bit addressing and RAM mapping of all devices is different.
 
-With recent updates, Fujifilm began signing firmware images with ECDSA -- likely to comply with the EU RED requirements (see [EU Cyber Standard ETSI EN 303 645 v3.1.3](https://www.etsi.org/deliver/etsi_en/303600_303699/303645/03.01.03_60/en_303645v030103p.pdf)), which took effect in 2025 and mandate protection against unauthorized or malicious firmware modifications. As a side effect, this also blocks the only known method of firmware downgrading -- based on header modification -- since the firmware header is now included in the signed data.
+With recent updates, Fujifilm began signing firmware images with ECDSA -- likely to comply with the EU RED requirements (see [EU Cyber Standard](https://www.etsi.org/deliver/etsi_en/303600_303699/303645/03.01.03_60/en_303645v030103p.pdf)), which took effect in 2025 and mandate protection against unauthorized or malicious firmware modifications. As a side effect, this also blocks the only known method of firmware downgrading -- based on header modification -- since the firmware header is now included in the signed data.
