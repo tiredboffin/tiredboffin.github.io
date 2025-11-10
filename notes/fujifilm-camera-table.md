@@ -1,3 +1,7 @@
+---
+enable_datatable: true
+---
+
 | **Name**    | **Date**| **Processor** | **Ker	nel** | **SoC id** | **Image sensor** | **Format** | **Comment**|
 | ----------- | --------| ------------- |----------- | ------ | ---------------- | ------ | ---------- |
 |Finepix 4700 |01/31/01|||FF4125|SuperCCD I 1/1.7" 2.4M/4M|NA||
