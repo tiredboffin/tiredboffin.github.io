@@ -8,8 +8,16 @@ document.addEventListener("DOMContentLoaded", function () {
 
     new simpleDatatables.DataTable(table, {
       searchable: true,
-      perPage: 50,
-      fixedHeight: false 
+      perPage: 25,
+      perPageSelect: [10, 25, 50, 100],
+      fixedHeight: false,
+      columns: [
+        {
+          // 0-based index of the date column
+          select: 1,
+          type: "date",
+          format: "MM/DD/YY"  // matches "01/30/02"
+        }      
     });
   });
 });
