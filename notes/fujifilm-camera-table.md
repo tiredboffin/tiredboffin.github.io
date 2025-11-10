@@ -112,5 +112,4 @@
 |XE5|06/12/25|X Processor 5 Cortex-A53|ThreadX SMP 64||X-Trans CMOS 5|X8|pid:LX25|
 |XHALF|07/14/25|Cortex-A7|ThreadX|||SUNP||
 |XT30III|10/23/25|X Processor 5 Cortex-A53|ThreadX SMP 64||X-Trans CMOS 4||pid:?|
-
 {: .datatable}
