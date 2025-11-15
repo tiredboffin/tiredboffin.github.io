@@ -1,5 +1,5 @@
 ---
-tags: [fujifilm, firmware, reverse engineering, fujikaidoku, ff80, fujihack, nikon-firmware-tools, chdk]
+tags: [fujifilm, firmware, reverse engineering, fujikaidoku, 0xff80, fujihack, nikon-firmware-tools, chdk, ffre]
 ---
 
 # Is it worth the trouble?
