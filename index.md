@@ -27,7 +27,7 @@ If you don't know how to find the firmware for your model or how to extract it s
 
 Reversing many Fujifilm-branded ODM models originally designed by vendors like Sanyo, Zoran, Altek, Fujitsu, etc. is, strictly speaking, not really about "true" Fujifilm -- typically the designs or camera modules were shared across multiple camera brands, especially in the low-end segment. Some progress from other brands reversing efforts can apply to Fujifilm models, but those ODM cameras are mostly low-end point-and-shoots and are often low-value targets for reversing. This is mostly dead-end.
 
-The possible exception is recent ODM models such as the XA3+ and XT100+. There have been [initial steps]((https://github.com/ddimensia/yi_4k_hacks)) on the "LENGTH=" file-format reversing, but work so far hasn't gone much beyond basic unpacking.
+The possible exception is recent ODM models such as the XA3+ and XT100+. There have been [initial steps](https://github.com/ddimensia/yi_4k_hacks) on the "LENGTH=" file-format reversing, but work so far hasn't gone much beyond basic unpacking.
 
 Most real progress has come from the [Fujihack project](https://fujihack.org/), whose original targets were the XF1 and XA2. Those two cameras belong to the EXR family, so if you want to reuse Fujihack findings the easiest route is to pick one of those cameras or another EXR-family model.
 
