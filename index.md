@@ -23,9 +23,9 @@ If firmware isn't available on Fujifilm's site (marked "NA" in the file-format c
 
 If you don't know how to find the firmware for your model or how to extract it safely from EEPROM, that's a good sign you should pick a different, better-supported camera for your reversing project.
 
-Reversing many Fujifilm-branded ODM models originally designed by vendors like Sanyo, Zoran, Altek, Fujitsu, etc. is, strictly speaking, not really about "true" Fujifilm -- typically the designs or camera modules were shared across multiple camera brands, especially in the low-end segment. Some progress from other brands reversing efforts can apply to Fujifilm models, but those ODM cameras are mostly low-end point-and-shoots and are often low-value targets for reversing. This is mostly dead-end but see for e.g this [note](https://chdk.setepontos.com/index.php?topic=6484.msg87768#msg87768) on Altek based Fujiflm cameras.
+Reversing many Fujifilm-branded ODM models originally designed by vendors like Sanyo, Zoran, Altek, Fujitsu, etc. is, strictly speaking, not really about "true" Fujifilm -- typically the designs or camera modules were shared across multiple camera brands, especially in the low-end segment. Some progress from other brands reversing efforts can apply to Fujifilm models, but those ODM cameras are mostly low-end point-and-shoots and are often low-value targets for reversing. This is mostly dead-end but see for e.g this [note on chdk forum](https://chdk.setepontos.com/index.php?topic=6484.msg87768#msg87768) on Altek based Fujiflm cameras.
 
-The possible exception is recent ODM models such as the XA3+ and XT100+. There have been [initial steps](https://github.com/ddimensia/yi_4k_hacks) on the "LENGTH=" file-format reversing (see [also](https://dashcamtalk.com/forum/forums/yi-action-camera.153/), but for Fujifilm work so far hasn't gone much beyond basic unpacking.
+The possible exception is recent ODM models such as the XA3+ and XT100+. There have been [initial steps](https://github.com/ddimensia/yi_4k_hacks) on the "LENGTH=" file-format reversing (see [also](https://dashcamtalk.com/forum/forums/yi-action-camera.153/)), but for Fujifilm work so far hasn't gone much beyond basic unpacking.
 
 # Where things stand
 
@@ -37,5 +37,4 @@ Development is now happening across several repositories.
 
 Related development runs independently in the [fffw repository](https://github.com/tiredboffin/fffw), which [focuses](https://github.com/tiredboffin/fffw/wiki/Route-0xff80) more on finding hidden functionality in fimrware than on extending firmware capabilities. That project published the simple ff80 tool, which implements Fujifilm's undocumented "jig" protocol used for diagnostics and adjustments at Service Centres and for developer logging. This protocol lets you safely dump full RAM from a live camera (no firmware modification required) and, for EXR cameras, also dump the boot ROM. This functionality was partially ported from ff80 into Fujihack code.
 
-To prepare firmware for Ghidra or IDA, the project uses an unpublished tool called ffun. The tool decompresses compressed parts of the image and extracts or infers memory mapping information. It currently supports X* formats, with recently added support for LEN format (Xacti cameras), for details see the [list](https://github.com/
-tiredboffin/fffw/wiki/CPU-and-OS-History-Table)
+To prepare firmware for Ghidra or IDA, the project uses an unpublished tool called ffun. The tool decompresses compressed parts of the image and extracts or infers memory mapping information. It currently supports X* formats, with recently added support for LEN format (Xacti cameras), see the [list](https://github.com/tiredboffin/fffw/wiki/CPU-and-OS-History-Table) of cameras crrently supported by ffun.
