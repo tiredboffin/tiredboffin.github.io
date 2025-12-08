@@ -2,3 +2,5 @@ title: Fujifilm Firmware Reverse Engineering
 description: Notes for beginners
 author: tiredboffin
 theme: jekyll-theme-slate
+plugins:
+  - jekyll-sitemap
